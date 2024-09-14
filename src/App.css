@@ -1,0 +1,225 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #103f48;
+  color: white;
+  padding: 20px;
+}
+
+.footer h5 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Ensure spacing between list items */
+.footer li {
+  margin-bottom: 0.5rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Custom colors for sections */
+.abt {
+  color: aqua;
+}
+
+.dat {
+  color: aquamarine;
+}
+
+.nar {
+  color: blueviolet;
+}
+
+.act {
+  color: orangered;
+}
+
+/* Mobile view: adjust layout to show in two columns */
+@media (max-width: 767.98px) {
+  .about-container, .action-container {
+    order: 1;
+    width: 50%;
+  }
+
+  .data-container, .narrative-container {
+    order: 2;
+    width: 50%;
+  }
+
+  /* Ensure alignment */
+  .footer .row > div {
+    margin-bottom: 1rem;
+  }
+}
+
+.text-align-center {
+  text-align: center;
+}
+/* ------------------------------footer--------------------- */
+/* ----------Action --------------- */
+/* src/components/Action.css */
+.Actionbackground {
+  background-color: #FFDBAC;
+}
+
+.text-darkblue {
+  color: #002366; /* Dark blue color */
+}
+
+.Acttext {
+  font-size: 15rem; /* Default large font size */
+  
+  margin-top: 2rem; /* Add some margin if needed */
+}
+
+/* Make paragraph text smaller */
+.small-text {
+  font-size: 1.875rem; /* Smaller font size */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .Acttext {
+    font-size: 10rem; /* Adjust size for medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .Acttext {
+    font-size: 7rem; /* Adjust size for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .Acttext {
+    font-size: 5rem; /* Further adjustment for mobile screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .Acttext {
+    font-size: 3rem; /* Smallest size for very small screens */
+  }
+}
+
+/* Further responsive adjustments */
+@media (max-width: 767.98px) {
+  .small-text {
+      font-size: 0.75rem; /* Adjust further for smaller screens */
+  }
+}
+
+
+.arrow-container {
+  
+  bottom: -10px; /* Adjust as needed */
+  right: 10px;  /* Adjust as needed */
+  font-size: 24px; /* Adjust size as needed */
+}
+
+.arrow-icon {
+  font-size: 1.5rem; /* Adjust size as needed */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.arrow-icon:hover {
+  color: orange; /* Change color to orange on hover */
+}
+
+.border-bottom-custom {
+  border-bottom: 1px solid black; /* Adjust thickness and color as needed */
+}
+
+.card-text {
+  font-size: 1.25rem; /* Adjust text size as needed */
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Add a smooth transition effect for scaling and shadow */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up the card on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better visual effect */
+}
+
+.card.bg-orange {
+  /* Additional styling for Card 1 */
+}
+
+.card.full-width-text {
+  /* Additional styling for Card 2 */
+}
+/* --------------------------------------------------------------------Action ss-------------------------------- */
+/*--------------------------------ourvision------------------------------------*/
+.ourvisionbackground{
+  background-color: #103f48;
+
+}
+.btn-orange {
+  background-color: orangered;
+  border: none;
+  color: white;
+}
+.btn-orange:hover {
+  background-color: orange;
+}
+/* --------------------------------------------------------ourvision--------------------------------- */
+/* --------------------------------Narrative--------------------------------- */
+.Narratext {
+  font-size: 10rem; /* Default large font size */
+  color:#007EA6;
+  margin-top: 2rem; /* Add some margin if needed */
+}
+@media (max-width: 576px) {
+  .Narratext {
+    font-size: 3rem; /* Smallest size for very small screens */
+  }
+}
+.Narrabackground{
+  background-color:aliceblue;
+}
+/*=-------------------------------------------------------------narrative-----------------------------------------
+/*----------------------------------------------------------data------------------------------------------------*/
+.datatext{
+  color:#7FB6A4;
+}
+.datatext {
+  font-size: 10rem; /* Default large font size */
+  color:#007EA6;
+  margin-top: 2rem; /* Add some margin if needed */
+}
+@media (max-width: 576px) {
+  .datatext {
+    font-size: 3rem; /* Smallest size for very small screens */
+  }
+}
+.arrow1-icon {
+  font-size: 1.5rem; /* Adjust size as needed */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.arrow1-icon:hover {
+  color:skyblue; /* Change color to orange on hover */
+}
+/*----------------Slider=---------------------------*/
+.Slider{
+  background-color: #D1CAC3;
+}
+/*---------------------------Header---------------------*/
+.headerbackground{
+  background-color: #103f48;
+}
